@@ -1,0 +1,31 @@
+{
+  "name": "wp-automation-2",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node test.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "automation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "WhatsApp automation bot with reply functionality",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.17",
+    "chalk": "^4.1.2",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "pino": "^9.7.0",
+    "pino-pretty": "^13.0.0",
+    "qrcode": "^1.5.4",
+    "qrcode-terminal": "^0.12.0"
+  }
+}

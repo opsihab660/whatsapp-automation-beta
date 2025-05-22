@@ -1,0 +1,29 @@
+services:
+  - type: web
+    name: whatsapp-bot
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /api/status
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 3000
+      - key: BOT_NAME
+        value: WhatsAppBot
+      - key: ENABLE_AUTO_REPLY
+        value: true
+      - key: ENABLE_GROUP_AUTO_REPLY
+        value: true
+      - key: ENABLE_DIRECT_AUTO_REPLY
+        value: true
+      - key: ENABLE_NOTIFICATIONS
+        value: true
+      - key: LOG_LEVEL
+        value: info
+    disk:
+      name: whatsapp-data
+      mountPath: /opt/render/project/src/auth
+      sizeGB: 1

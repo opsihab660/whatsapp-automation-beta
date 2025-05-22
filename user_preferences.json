@@ -1,0 +1,64 @@
+{
+  "styles": {
+    "group": {
+      "borderChar": "═"
+    },
+    "inbox": {
+      "borderChar": "─"
+    },
+    "important": {
+      "borderChar": "█"
+    },
+    "work": {
+      "borderChar": "─"
+    },
+    "personal": {
+      "borderChar": "─"
+    },
+    "other": {
+      "borderChar": "─"
+    }
+  },
+  "notifications": {
+    "group": {
+      "enabled": true,
+      "sound": "group_notification.mp3",
+      "priority": "medium",
+      "showPreview": true
+    },
+    "inbox": {
+      "enabled": true,
+      "sound": "inbox_notification.mp3",
+      "priority": "high",
+      "showPreview": true
+    },
+    "important": {
+      "enabled": true,
+      "sound": "important_notification.mp3",
+      "priority": "high",
+      "showPreview": true
+    },
+    "work": {
+      "enabled": true,
+      "sound": "work_notification.mp3",
+      "priority": "medium",
+      "showPreview": true
+    },
+    "personal": {
+      "enabled": true,
+      "sound": "personal_notification.mp3",
+      "priority": "medium",
+      "showPreview": true
+    },
+    "other": {
+      "enabled": true,
+      "sound": "default_notification.mp3",
+      "priority": "low",
+      "showPreview": true
+    }
+  },
+  "mutedChats": [],
+  "showTimestamps": true,
+  "showSenderName": true,
+  "compactMode": false
+}
